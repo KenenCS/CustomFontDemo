@@ -13,6 +13,8 @@
 		6C95C89D1EFB54220092F86A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C95C89B1EFB54220092F86A /* Main.storyboard */; };
 		6C95C89F1EFB54220092F86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C95C89E1EFB54220092F86A /* Assets.xcassets */; };
 		6C95C8A21EFB54220092F86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C95C8A01EFB54220092F86A /* LaunchScreen.storyboard */; };
+		6C95C8AC1EFB54550092F86A /* DINPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C95C8AA1EFB54550092F86A /* DINPro-Regular.otf */; };
+		6C95C8AD1EFB54550092F86A /* PingFang Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C95C8AB1EFB54550092F86A /* PingFang Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6C95C89E1EFB54220092F86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C95C8A11EFB54220092F86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C95C8A31EFB54220092F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C95C8AA1EFB54550092F86A /* DINPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Regular.otf"; sourceTree = "<group>"; };
+		6C95C8AB1EFB54550092F86A /* PingFang Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PingFang Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		6C95C8911EFB54220092F86A /* CustomFontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6C95C8A91EFB54550092F86A /* Source */,
 				6C95C8951EFB54220092F86A /* AppDelegate.h */,
 				6C95C8961EFB54220092F86A /* AppDelegate.m */,
 				6C95C8981EFB54220092F86A /* ViewController.h */,
@@ -77,6 +82,15 @@
 				6C95C8931EFB54220092F86A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C95C8A91EFB54550092F86A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6C95C8AA1EFB54550092F86A /* DINPro-Regular.otf */,
+				6C95C8AB1EFB54550092F86A /* PingFang Regular.ttf */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C95C8AC1EFB54550092F86A /* DINPro-Regular.otf in Resources */,
 				6C95C8A21EFB54220092F86A /* LaunchScreen.storyboard in Resources */,
 				6C95C89F1EFB54220092F86A /* Assets.xcassets in Resources */,
+				6C95C8AD1EFB54550092F86A /* PingFang Regular.ttf in Resources */,
 				6C95C89D1EFB54220092F86A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
